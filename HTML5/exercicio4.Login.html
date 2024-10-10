@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Zacebook</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>ZACEBOOK</h1>
+            <img src="">
+        </header>
+        <fieldset id="login">
+            <legend>Login</legend>
+            <form action="exercicio4.Menu.html" method="post">
+                <label for="usuario">Usuário:
+                    <input type="text" id="usuario" name="usuario" required>
+                </label><br><br>
+                &nbsp;&nbsp;
+                <label for="senha">Senha:
+                    <input type="password" id="senha" name="senha" pattern="\d*" minlength="6" maxlength="16" placeholder="Digite apenas números" required>
+                </label><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit">Confirmar</button>
+            </form>  
+        </fieldset><br>
+        <fieldset id="registro">
+            <legend>Registrar-se</legend>
+            <form action="exercicio4.Menu.html" method="post">
+                &nbsp;
+                <label for="criando_usuario">Usuário:
+                    <input type="text" id="criando_usuario" name="criando_usuario" required>
+                </label><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email">Email:
+                    <input type="text" id="criando_email" name="criando_email" required>
+                </label><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="criando_senha">Senha:
+                    <input type="password" id="criando_senha" name="criando_senha1" pattern="\d*" minlength="6" maxlength="16" placeholder="Digite apenas números" required>
+                    <br><br>
+                    &nbsp;&nbsp;
+                    Repetir: 
+                    <input type="password" id="criando_senha" name="criando_senha2" pattern="\d*" minlength="6" maxlength="16" placeholder="Digite apenas números" required>
+                </label><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Confirmar</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
