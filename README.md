@@ -17,5 +17,5 @@ Aqui estão as tecnologias abordadas atualmente:
 
 ## Organização
 
-Os exercícios estão orginados por pastas, cada uma representa um curso e cada exercício um aprendizado novo sobre aquela tecnoligia.
+Os exercícios estão organizados por pastas, cada uma representa um curso e cada exercício um aprendizado novo sobre aquela tecnoligia.
 
