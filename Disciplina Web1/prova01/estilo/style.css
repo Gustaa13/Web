@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -17,6 +18,7 @@ nav {
     left: 15px;
     right: 15px;
     padding: 5px 15px 5px 5px;
+    z-index: 3;
 }
 
 nav > a{
@@ -25,7 +27,7 @@ nav > a{
     font-family: 'Prompt', sans-serif;
     color: #EFC2B3;
     padding: 0px 30px 0px 0px;
-    font-size: 12px;
+    font-size: 0.7em;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -36,8 +38,8 @@ nav > a#menu {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 0.8em;
+    letter-spacing: 3px;
     font-weight: 500;
 }
 
@@ -78,25 +80,141 @@ nav > a:hover {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+
+    width: 100%;
+    height: 675px;
+
+    background-image: url('/imagens/shop_cta_xl_896f6b8270.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Prompt', sans-serif;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 675px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+header h1, h2 {
+    z-index: 2;
+    color: #EFC2B3;
 }
 
 header h1 {
-    color: #EFC2B3;
-    font-weight: 900;
+    display: block;
+    max-width: 450px;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
 }
 
 header h2 {
-    color: #EFC2B3;
-    font-weight: 400;
+    display: block;
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
-header > img {
-    width: 100%;
-    margin: auto;
-    height: 675px;
+header img {
+    position: absolute;
+    top: 605px;
+    z-index: 2;
 }
 
-main > p {
+main {
+    background-color: #f0efed;
+}
+
+main p {
     height: 1000px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1A2456;
+    padding: 45px 45px 80px 45px;
+    color: #EFC2B3;
+    font-family: 'Prompt', sans-serif;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+    padding-right: 80px;
+}
+
+footer > ul > li {
+    margin-bottom: 5px;
+    font-size: 0.82em;
+    font-weight: 300;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: #EFC2B3;
+}
+
+footer > ul > li > a:hover {
+    text-decoration: underline;
+    color: #E28F73;
+}
+
+footer ul > li.titulo {
+    margin-bottom: 15px;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+footer ul#ultimo {
+    padding-right: 0px;
+    width: 300px;
+}
+
+footer input {
+    background-color: #1A2456;
+    border-style: solid;
+    border-color: #EFC2B3;
+    border-width: 1px;
+    padding: 6px 8px;
+    width: 125px;
+    margin-right: 10px;
+    color: #EFC2B3;
+    margin-bottom: 5px;
+}
+
+footer input::placeholder {
+    color: #babeccda;
+}
+
+footer input:focus {
+    outline: none;
+}
+
+footer button {
+    padding: 8px 22px 7px 22px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    color: #1A2456;
+    background-color: #a48b92;
+    border-width: 0px;
+}
+
+
