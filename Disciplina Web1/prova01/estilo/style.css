@@ -19,7 +19,7 @@ nav {
     padding: 5px 15px 5px 5px;
 }
 
-nav a{
+nav > a{
     display: flex;
     text-decoration: none;
     font-family: 'Prompt', sans-serif;
@@ -30,7 +30,7 @@ nav a{
     letter-spacing: 2px;
 }
 
-nav a#menu {
+nav > a#menu {
     display: flex;
     margin-right: auto;
     justify-content: center;
@@ -41,39 +41,39 @@ nav a#menu {
     font-weight: 500;
 }
 
-nav a#sacola {
+nav > a#sacola {
     padding-right: 14px;
 }
 
-nav a.opcoes::after {
+nav > a.opcoes::after {
     display: flex;
     content: '\25BE';
     margin-left: 2px;
     transform: scale(1.1);
 }
 
-nav a.opcoes:hover {
+nav > a.opcoes:hover {
     color: #BABECC;
 }
 
-nav a strong {
+nav > a > strong {
     font-weight: 600;
 }
 
-nav a#ultimo {
+nav > a#ultimo {
     margin: -5px;
     padding-right: 0px;
 }
 
-nav a img {
+nav > a > img {
     background-color: #EFC2B3;
 }
 
-nav a:hover img {
+nav > a:hover > img {
     background-color: #E28F73;
 }
 
-nav a:hover {
+nav > a:hover {
     color: #E28F73;
 }
 
