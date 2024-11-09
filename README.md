@@ -11,7 +11,7 @@ O objetivo deste repositório é documentar meu progresso e desenvolvimento em d
 Aqui estão as tecnologias abordadas atualmente:
 
 - [X] **HTML**
-- [ ] **CSS**
+- [X] **CSS**
 - [ ] **JavaScript**
 - [ ] **Outras tecnologias**: ...
 
