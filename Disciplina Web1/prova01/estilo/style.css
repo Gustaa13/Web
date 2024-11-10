@@ -79,6 +79,37 @@ nav > a:hover {
     color: #E28F73;
 }
 
+div#caixa-de-abertura {
+    display: none;
+}
+
+a.opcoes:focus + #caixa-de-abertura {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 365px;
+    width: 200px;
+    padding: 10px 0px;
+    z-index: 3;
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+div#caixa-de-abertura > a {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+div#caixa-de-abertura > a:hover {
+    background-color: #E9ECEF;
+}
+ 
 header {
     display: flex;
     flex-direction: column;
@@ -135,10 +166,209 @@ header img {
 
 main {
     background-color: #f0efed;
+    font-family: 'Promp', sans-serif;
+    padding-bottom: 50px;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1A2456;
+}
+
+main h3 {
+    text-transform: uppercase;
+    flex-grow: 1;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding-bottom: 8px;
 }
 
 main p {
-    height: 1000px;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+main p.quebra-de-linha {
+    color: #8B9197;
+    float: right;
+    font-size: 1em;
+}
+
+main section#secao-principal {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+main section ul {
+    list-style: none;
+}
+
+main section#secao-principal > ul {
+    columns: 2;
+}
+
+main section#secao-principal > ul > li {
+    max-width: 555px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+main > section#secao-principal img {
+    object-fit: cover;
+    height: 370px;
+    width: 555px;
+    padding-bottom: 5px;
+}
+
+main div#oferta-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+main div#oferta-principal img {
+    object-fit: cover;
+    height: 430px;
+    width: 1130px;
+}
+
+main div#info-oferta-principal {
+    padding-top: 10px;
+    width: 1130px;
+    color: #1A2456;
+}
+
+main > section > ul > li > div > img:hover {
+    opacity: 0;
+}
+
+div#mini-console:hover::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp?v=1668446709');
+    display: block;
+    height: 370px;
+    width: 555px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#photo-console:hover::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_StudioBracket1_Monogram_May2020_4558_53685b21-b09f-45b0-85a2-180d6acfafac_1366x911_crop_center.jpg.webp?v=1668433210');
+    display: block;
+    height: 370px;
+    width: 555px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#audio-console:hover::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1366x911_crop_center.jpg.webp?v=1668433146');
+    display: block;
+    height: 370px;
+    width: 555px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#video-console:hover::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_MasterBracket1_Monogram_May2020_4555_1366x911_crop_center.jpg.webp?v=1668433240');
+    display: block;
+    height: 370px;
+    width: 555px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main > div > div > img:hover {
+    opacity: 0;
+}
+
+main > div > div#keybord {
+    position: relative;
+}
+
+div#oferta-principal > div#keybord:hover::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0974/7950/files/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp?v=1712087494');
+    display: block;
+    height: 430px;
+    width: 1130px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main div#meio {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 506px;
+    margin-bottom: 50px;
+}
+
+main div#meio > h1 {
+    position: absolute;
+    top: 40px;
+    z-index: 2;  
+
+    font-size: 37px;
+    letter-spacing: 2px;
+
+    color: #1A2456;
+}
+
+main div#meio > h2 {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+
+    font-size: 18px;
+    font-weight: 100;
+
+    color: #1A2456; 
+}
+
+main div#meio > img {
+    z-index: 1;
+    width: 1140px;
+}
+
+main section#secao-secundaria > ul {
+    columns: 3;
+}
+
+main section#secao-secundaria > ul > li {
+    max-width: 336px;
+    padding: 10px;
+}
+
+main > section#secao-secundaria img {
+    object-fit: cover;
+    height: 336px;
+    width: 336px;
+    padding-bottom: 5px;
 }
 
 footer {
