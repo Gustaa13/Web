@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando</title>
+    <style>
+        div {
+            display: flex;
+        }
+
+        p {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando somas</h1>
+    <input type="number" name="inp1" id="inp1"> +
+    <input type="number" name="inp2" id="inp2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div>  
+        <P>Resultado: </P>
+        <p id="resultado"> </p>
+    </div>
+    <script>
+        function somar(){
+            var n1 = window.document.getElementById('inp1')
+            var n2 = window.document.getElementById('inp2')
+            var soma =  Number(n1.value) + Number(n2.value)
+            resultado.innerHTML = soma
+        }
+    </script>
+</body>
+</html>
