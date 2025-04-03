@@ -7,7 +7,7 @@
 <h2>Tecnologias Abordadas</h2>
 
 <div>
-  <h3>Front-End</h3> 
+  <h3><i>Front-End</i></h3> 
   
   <div>
     <ul> 
@@ -21,7 +21,7 @@
     </ul>
   </div>
   
-  <h3>Back-End</h3> 
+  <h3><i>Back-End</i></h3> 
   
   <div>
     <ul>
