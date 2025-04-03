@@ -41,7 +41,7 @@
 </div>
 
 <h2>Pequenos projetos</h2>
-<p>Projetos desenvolvidos exclusivamente para fins de estudo e prática. Projetos mais robustos são armazenados em repositórios específicos.</p>
+<p>Projetos simples desenvolvidos exclusivamente para fins de estudo e prática. Projetos robustos são armazenados em repositórios específicos.</p>
 <div>
   <h3><i>Javascript</i></h3>
   <ul>
