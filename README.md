@@ -1,7 +1,7 @@
 <h1>Repositório de Estudos em Desenvolvimento Web</h1> 
 
 <div>
-  <p> Bem-vindo ao meu repositório central de estudos em desenvolvimento web! Aqui, registro e organizo meus aprendizados e pequenos projetos, desde o front-end até o back-end, incluindo materiais de faculdade e cursos. </p>
+  <p> Este é o meu repositório central de estudos em desenvolvimento web. Aqui, registro e organizo meus aprendizados e pequenos projetos, desde o front-end até o back-end, incluindo materiais de faculdade e cursos. </p>
 </div>
 
 <h2>Tecnologias Abordadas</h2>
