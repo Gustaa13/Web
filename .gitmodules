@@ -4,3 +4,6 @@
 [submodule "Javascript"]
 	path = Javascript
 	url = https://github.com/Gustaa13/Javascript.git
+[submodule "Tailwindcss"]
+	path = Tailwindcss
+	url = https://github.com/Gustaa13/Tailwindcss.git
