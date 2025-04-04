@@ -40,22 +40,4 @@
   </ul>
 </div>
 
-<h2>Pequenos projetos</h2>
-<p>Projetos simples desenvolvidos exclusivamente para fins de estudo e prática. Projetos robustos são armazenados em repositórios específicos.</p>
-<div>
-  <h3><i>Javascript</i></h3>
-  <ul>
-    <p><a href="https://gustaa13.github.io/Web/Javascript/b7web/projetos/luta/index.html" target="_blank">Luta</a> - Pequeno sistema de luta de turnos</p>
-  </ul>  
-</div>
-
-<div>
-  <h3><i>Html-Css</i></h3>
-  <ul>
-    <p><a href="https://gustaa13.github.io/Web/Html-css/guanabara/projetos/projeto02/index.html" target="_blank">Cordel</a> - Cordel de Milton Duarte</p>
-    <p><a href="https://gustaa13.github.io/Web/Html-css/guanabara/projetos/projeto01/android.html" target="_blank">Android</a> - Curiosidades sobre o Android</p>
-    <p><a href="https://gustaa13.github.io/Web/Html-css/web1/prova01/shop.html" target="_blank">Monogram</a> - Replicação da interface da loja do site Monogram</p>
-  </ul>
-</div>
-
 
