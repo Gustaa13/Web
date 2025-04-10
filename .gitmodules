@@ -1,9 +1,9 @@
 [submodule "Html-css"]
 	path = Html-css
-	url = https://github.com/Gustaa13/Html-css.git
+	url = git@github.com:Gustaa13/Html-css.git
 [submodule "Javascript"]
 	path = Javascript
-	url = https://github.com/Gustaa13/Javascript.git
+	url = git@github.com:Gustaa13/Javascript.git
 [submodule "Tailwindcss"]
 	path = Tailwindcss
-	url = https://github.com/Gustaa13/Tailwindcss.git
+	url = git@github.com:Gustaa13/Tailwindcss.git
