@@ -1,0 +1,23 @@
+name: Clonar submódulos privados
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
+      with:
+        submodules: false
+
+    - name: Configurar acesso ao GitHub via token
+      run: |
+        git config --global url."https://${{ secrets.GH_TOKEN }}@github.com/".insteadOf "https://github.com/"
+        git submodule update --init --recursive
+
+    - name: Teste
+      run: echo "Submódulos clonados com sucesso!"
