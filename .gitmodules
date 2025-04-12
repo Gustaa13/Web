@@ -7,3 +7,6 @@
 [submodule "Tailwindcss"]
 	path = Tailwindcss
 	url = https://github.com/Gustaa13/Tailwindcss.git
+[submodule "Typescript"]
+	path = Typescript
+	url = https://github.com/Gustaa13/Typescript.git
