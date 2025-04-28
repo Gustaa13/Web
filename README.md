@@ -15,7 +15,7 @@
       <li>✅ <strong>CSS</strong></li>
       <li>✅ <strong>JavaScript</strong></li>
       <li>✅ <strong>Tailwind CSS</strong></li>
-      <li>⬜ <strong>TypeScript</strong></li>
+      <li>✅ <strong>TypeScript</strong></li>
       <li>⬜ <strong>React.js</strong></li>
       <li>⬜ <strong>Next.js</strong></li>
     </ul>
