@@ -10,3 +10,6 @@
 [submodule "Typescript"]
 	path = Typescript
 	url = https://github.com/Gustaa13/Typescript.git
+[submodule "React"]
+	path = React
+	url = https://github.com/Gustaa13/React.git
