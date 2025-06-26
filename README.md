@@ -16,8 +16,8 @@
       <li>✅ <strong>JavaScript</strong></li>
       <li>✅ <strong>Tailwind CSS</strong></li>
       <li>✅ <strong>TypeScript</strong></li>
-      <li>⬜ <strong>React.js</strong></li>
-      <li>⬜ <strong>Next.js</strong></li>
+      <li>✅ <strong>React.js</strong></li>
+      <li>✅ <strong>Next.js</strong></li>
     </ul>
   </div>
   
@@ -25,7 +25,8 @@
   
   <div>
     <ul>
-      <li>⬜ <strong>Conteúdo a ser adicionado</strong></li>
+      <li>✅ <strong>Java</strong></li>
+      <li>⬜ <strong>Spring Boot</strong></li>
     </ul>
   </div>
 </div>
